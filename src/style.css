@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.AppDiv {
+  display: flex;
+}
+
+.NavBar {
+  height: 100vh;
+  width: 260px;
+  background-color: #1a2038;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  justify-content: center;
+}
+.MainDiv {
+  margin-left: 260px;
+  margin-right: 50px;
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+  overflow-y: scroll;
+}
+
+.HeaderDiv {
+  background-color: #7467ef;
+  position: relative;
+  display: flex;
+  height: 64px;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 96;
+  justify-content: space-between;
+
+  box-shadow: 23px 126px 71px 49px rgba(56, 44, 0, 0.06),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.042), 0px 3px 14px 2px rgba(0, 0, 0, 0.036);
+}
+.GraphDiv {
+  background: #7265e8;
+  height: 442px;
+}
+.SmallNavbarDiv {
+  right: 0;
+  width: 50px;
+  bottom: 0;
+  height: 100vh;
+  display: flex;
+  z-index: 98;
+  position: fixed;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.06),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.042), 0px 3px 14px 2px rgba(0, 0, 0, 0.036);
+  transition: all 0.15s ease;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #222a45;
+}
